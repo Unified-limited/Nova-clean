@@ -1,1192 +1,983 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nova Clean </title>
-    <link rel="stylesheet" href="css/all.min.css" />
-    <!--FONTAWESOME-->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="stylesheet" href="css/base.css" />
-    <link rel="stylesheet" href="css/custom.css" />
-    <link rel="stylesheet" href="css/responsive.css" />
-  </head>
-  <body>
-    <header>
-      <nav class="navigation-menu">
-        <div
-          class="navigation-menu__overlay"
-          onclick="toggleMenuClicked()"
-        ></div>
-        <button
-          type="button"
-          class="hamburger-menu"
-          onclick="toggleMenuClicked()"
-        >
-          <span class="material-icons" id="open-icon">menu</span>
-          <span class="material-icons" id="close-icon">close</span>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nova Clean </title>
+  <link rel="stylesheet" href="css/all.min.css" />
+  <!--FONTAWESOME-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/custom.css" />
+  <!-- <link rel="stylesheet" href="css/responsive.css" /> -->
+</head>
+
+<body>
+  <div class="top-header">
+    <div class="container">
+      <div class="top-header-wrapper">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="top-header-left">
+              <img src="images/anniversaire-novaclean.png" alt="">
+              <strong>EN 2025 NOVA CLEAN FÊTE<br>10 ANS A VOTRE SERVICE</strong>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="top-header-right">
+              <div class="uk-first-column">
+                <div class="uk-panel" id="module-399">
+                  <div class="uk-grid tm-grid-expand uk-grid-margin" uk-grid="">
+                    <div class="uk-width-1-3@m uk-first-column">
+                      <div class="uk-margin-medium uk-text-right@m uk-text-center">
+                        <a class="el-content uk-button uk-button-default uk-button-small uk-flex-inline uk-flex-center uk-flex-middle" title="Téléphone de l'entreprise de nettoyage Nova Clean France" aria-label="Tél : 09 80 80 64 64" href="tel:0033980806464">
+                          <span class="uk-margin-small-right uk-icon" uk-icon="receiver">
+                            <svg width="20" height="20" viewBox="0 0 20 20">
+                              <path fill="none" stroke="#000" stroke-width="1.01" d="M6.189,13.611C8.134,15.525 11.097,18.239 13.867,18.257C16.47,18.275 18.2,16.241 18.2,16.241L14.509,12.551L11.539,13.639L6.189,8.29L7.313,5.355L3.76,1.8C3.76,1.8 1.732,3.537 1.7,6.092C1.667,8.809 4.347,11.738 6.189,13.611"></path>
+                            </svg>
+                          </span>
+                          09 80 80 64 64
+                        </a>
+                      </div>
+                    </div>
+                    <div class="uk-width-1-3@m">
+                      <div class="uk-margin-small uk-width-medium uk-margin-auto uk-text-center@m uk-text-right">
+                        <a class="el-content uk-button uk-button-default uk-button-small uk-flex-inline uk-flex-center uk-flex-middle" title="Email de l'entreprise de nettoyage Nova Clean France" aria-label="contact@nova-clean.fr" href="mailto:contact@nova-clean.fr">
+                          <span class="uk-margin-small-right uk-icon" uk-icon="mail">
+                            <svg width="20" height="20" viewBox="0 0 20 20">
+                              <polyline fill="none" stroke="#000" points="1.4,6.5 10,11 18.6,6.5"></polyline>
+                              <path d="M 1,4 1,16 19,16 19,4 1,4 Z M 18,15 2,15 2,5 18,5 18,15 Z"></path>
+                            </svg>
+                          </span>
+                          contact@nova-clean.fr
+                        </a>
+                      </div>
+                    </div>
+                    <div class="uk-width-1-3@m">
+                      <div class="uk-margin-small uk-width-medium uk-margin-auto uk-text-center@m uk-text-right">
+                        <a class="el-content uk-button uk-button-primary uk-button-small uk-flex-inline uk-flex-center uk-flex-middle" title="Formulaire de devis de l'entreprise de nettoyage Nova Clean France" aria-label="DEVIS 100% GRATUIT" href="/index.php/devis-nettoyage">
+                          <span class="uk-margin-small-right uk-icon" uk-icon="file-edit">
+                            <svg width="20" height="20" viewBox="0 0 20 20">
+                              <path fill="none" stroke="#000" d="M18.65,1.68 C18.41,1.45 18.109,1.33 17.81,1.33 C17.499,1.33 17.209,1.45 16.98,1.68 L8.92,9.76 L8,12.33 L10.55,11.41 L18.651,3.34 C19.12,2.87 19.12,2.15 18.65,1.68 L18.65,1.68 L18.65,1.68 Z"></path>
+                              <polyline fill="none" stroke="#000" points="16.5 8.482 16.5 18.5 3.5 18.5 3.5 1.5 14.211 1.5"></polyline>
+                            </svg>
+                          </span>
+                          DEVIS 100% GRATUIT
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="uk-grid tm-grid-expand uk-grid-row-small uk-grid-margin-small" uk-grid="">
+                    <div class="uk-width-1-3@m uk-first-column">
+                      <div class="uk-panel uk-margin">
+                        <p style="text-align: right;">Numéro non surtaxé</p>
+                      </div>
+                    </div>
+                    <div class="uk-width-2-3@m">
+                      <div class="uk-panel uk-text-primary uk-margin">
+                        <p style="text-align: right; font-size: 14px; color: #000;">
+                          <strong>
+                            ACCUEIL TÉLÉPHONIQUE DU LUNDI AU VENDREDI&nbsp;
+                            <span uk-icon="clock" class="uk-icon">
+                              <svg width="20" height="20" viewBox="0 0 20 20">
+                                <circle fill="none" stroke="#000" stroke-width="1.1" cx="10" cy="10" r="9"></circle>
+                                <rect x="9" y="4" width="1" height="7"></rect>
+                                <path fill="none" stroke="#000" stroke-width="1.1" d="M13.018,14.197 L9.445,10.625"></path>
+                              </svg>
+                            </span>
+                            8H30 - 18H30
+                          </strong>
+                          <br />
+                          <strong>SAMEDI</strong>
+                          <span uk-icon="clock" class="uk-icon">
+                            <svg width="20" height="20" viewBox="0 0 20 20">
+                              <circle fill="none" stroke="#000" stroke-width="1.1" cx="10" cy="10" r="9"></circle>
+                              <rect x="9" y="4" width="1" height="7"></rect>
+                              <path fill="none" stroke="#000" stroke-width="1.1" d="M13.018,14.197 L9.445,10.625"></path>
+                            </svg>
+                          </span>
+                          <strong>9H00 - 12H00&nbsp; 14H00 - 16H30</strong>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <header class="navigation-sec">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="images/logo.webp" class="nav-logo" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
         </button>
-        <h1 class="site-identity-logo">Nova Clean</h1>
-        <section class="navigation-menu__labels">
-          <button type="button">Cleaning Company</button>
-          <button type="button">Extreme</button>
-          <button type="button">Services</button>
-          <button type="button">Pros</button>
-          <button type="button">Exteriors</button>
-          <button type="button">Buildings</button>
-          <button type="button">Moving</button>
-          <button type="button">Estimate</button>
-          <button type="button">Business</button>
-        </section>
-      </nav>
-    </header>
-    <main>
-      <section class="for-vanue-banner for-marketers-banner">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-7 col-md-10">
-              <div class="banner-content">
-                <h1
-                  class="title aos-init aos-animate"
-                  data-aos="zoom-in"
-                  data-aos-delay="300"
-                >
-                  Bringing events back from digital to live
-                </h1>
-              </div>
-              <div class="banner-search-bar">
-                <p
-                  class="search-txt aos-init aos-animate"
-                  data-aos="fade-up"
-                  data-aos-easing="ease"
-                  data-aos-delay="400"
-                >
-                  while helping your local venues and communities to thrive
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <div class="blog_container">
-        <div class="blog_content">
-          <div class="left_content">
-            <!--CARD BEGINING-->
-            <div class="blog_card">
-              <a href="article.html" class="figure">
-                <img src="images/happy-female-blogger.jpg" alt="" loading="lazy" />
-                <span class="tag">15 JAN</span>
-              </a>
-              <section>
-                <a href="#" class="title">Blog title goes here...</a>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat...
-                </p>
-              </section>
-            </div>
-            <!--CARD ENDS-->
-            <!--CARD BEGINING-->
-            <div class="blog_card">
-              <a href="#" class="figure">
-                <img
-                  src="images/blog1.jpg"
-                  alt=""
-                  loading="lazy"
-                />
-                <span class="tag">15 JAN</span>
-              </a>
-              <section>
-                <a href="article.html" class="title">Blog title goes here...</a>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat...
-                </p>
-              </section>
-            </div>
-            <!--CARD ENDS-->
-            <!--CARD BEGINING-->
-            <div class="blog_card">
-              <a href="article.html" class="figure">
-                <img
-                  src="images/blog1.jpg"
-                  alt=""
-                  loading="lazy"
-                />
-                <span class="tag">15 JAN</span>
-              </a>
-              <section>
-                <a href="#" class="title">Blog title goes here...</a>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat...
-                </p>
-              </section>
-            </div>
-            <!--CARD ENDS-->
-            <!--CARD BEGINING-->
-            <div class="blog_card">
-              <a href="article.html" class="figure">
-                <img
-                  src="images/blog1.jpg"
-                  alt=""
-                  loading="lazy"
-                />
-                <span class="tag">15 JAN</span>
-              </a>
-              <section>
-                <a href="#" class="title">Blog title goes here...</a>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat...
-                </p>
-              </section>
-            </div>
-            <!--CARD ENDS-->
-            <!--CARD BEGINING-->
-            <div class="blog_card">
-              <a href="article.html" class="figure">
-                <img
-                  src="images/blog1.jpg"
-                  alt=""
-                  loading="lazy"
-                />
-                <span class="tag">15 JAN</span>
-              </a>
-              <section>
-                <a href="#" class="title">Blog title goes here...</a>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat...
-                </p>
-              </section>
-            </div>
-            <!--CARD ENDS-->
-            <!--CARD BEGINING-->
-            <div class="blog_card">
-              <a href="#" class="figure">
-                <img
-                  src="images/blog1.jpg"
-                  alt=""
-                  loading="lazy"
-                />
-                <span class="tag">15 JAN</span>
-              </a>
-              <section>
-                <a href="#" class="title">Blog title goes here...</a>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat...
-                </p>
-              </section>
-            </div>
-            <!--CARD ENDS-->
-            <!--CARD BEGINING-->
-            <div class="blog_card">
-              <a href="#" class="figure">
-                <img
-                  src="images/blog1.jpg"
-                  alt=""
-                  loading="lazy"
-                />
-                <span class="tag">15 JAN</span>
-              </a>
-              <section>
-                <a href="article.html" class="title">Blog title goes here...</a>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat...
-                </p>
-              </section>
-            </div>
-            <!--CARD ENDS-->
-          </div>
-          <button class="btn1 load-btn">Load more</button>
-        </div>
 
-        <div class="blog_content right_content">
-          <!--SEARCH COLUMN BEGINING-->
-          <div class="columns search_column">
-            <section class="search">
-              <form>
-                <fieldset>
-                  <input
-                    type="text"
-                    name="search"
-                    placeholder="Search..."
-                    maxlength="100"
-                    required=""
-                  />
-                </fieldset>
-                <fieldset>
-                  <button type="submit" class="btn1">
-                    <i class="fa fa-search"></i>
-                  </button>
-                </fieldset>
-              </form>
-            </section>
-          </div>
-          <!--SEARCH COLUMN ENDS-->
-          <!--BOOKS COLUMN BEGINING-->
-          <div class="columns books">
-            <span class="title"
-              >New Books
-              <a href="#" title="Explore More"><i class="fa fa-share"></i></a
-            ></span>
-            <section>
-              <div class="cards">
-                <div
-                  class="card_part card_part-one"
-                  style="
-                    background-image: url(https://i.postimg.cc/2SD5y5RS/book-1.png);
-                  "
-                ></div>
-                <div
-                  class="card_part card_part-two"
-                  style="
-                    background-image: url(https://i.postimg.cc/2SD5y5RS/book-1.png);
-                  "
-                ></div>
-                <div
-                  class="card_part card_part-three"
-                  style="
-                    background-image: url(https://i.postimg.cc/2SD5y5RS/book-1.png);
-                  "
-                ></div>
-                <div
-                  class="card_part card_part-four"
-                  style="
-                    background-image: url(https://i.postimg.cc/2SD5y5RS/book-1.png);
-                  "
-                ></div>
-              </div>
-            </section>
-          </div>
-          <!--BOOKS COLUMN ENDS-->
-          <!--CATEGORIES COLUMN BEGINING-->
-          <div class="columns categories">
-            <span class="title">Categories</span>
-            <section>
-              <a href="#">Bhagavad Gita</a>
-              <a href="#">Education</a>
-              <a href="#">Importance of reading</a>
-              <a href="#">Origin of vedas</a>
-              <a href="#">Srimad bhagavatam</a>
-              <a href="#">Krishna</a>
-              <a href="#">Process of aquiring knowledge</a>
-            </section>
-          </div>
-          <!--CATEGORIES COLUMN ENDS-->
-          <!--POSTS COLUMN BEGINING-->
-          <div class="columns posts">
-            <span class="title"
-              >Recent Posts
-              <a href="#" title="Explore More"><i class="fa fa-share"></i></a
-            ></span>
-            <section>
-              <a href="#"
-                ><img
-                  src="images/blog1.jpg"
-                  alt=""
-                  loading="lazy"
-                />
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit
-                </p></a
-              >
-              <a href="#"
-                ><img
-                  src="images/blog1.jpg"
-                  alt=""
-                  loading="lazy"
-                />
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit
-                </p></a
-              >
-              <a href="#"
-                ><img
-                  src="images/blog1.jpg"
-                  alt=""
-                  loading="lazy"
-                />
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit
-                </p></a
-              >
-            </section>
-          </div>
-          <!--POSTS COLUMN ENDS-->
-          <!--COMMENTS COLUMN BEGINING-->
-          <div class="columns comments">
-            <span class="title">
-              Recent Comments
-              <a href="#" title="Explore More"><i class="fa fa-share"></i></a
-            ></span>
-            <section>
-              <marquee
-                direction="up"
-                scrollamount="4"
-                onMouseOver="this.stop()"
-                onMouseOut="this.start()"
-                class="marquee2"
-              >
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Deserunt ea aliquid consequuntur, non nesciunt officiis
-                  cupiditate aspernatur et quaerat illo quas minus, eum error
-                  obcaecati vel pariatur dolor ratione? Ullam.
-                </p>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Deserunt ea aliquid consequuntur, non nesciunt officiis
-                  cupiditate aspernatur et quaerat illo quas minus, eum error
-                  obcaecati vel pariatur dolor ratione? Ullam.
-                </p>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Deserunt ea aliquid consequuntur, non nesciunt officiis
-                  cupiditate aspernatur et quaerat illo quas minus, eum error
-                  obcaecati vel pariatur dolor ratione? Ullam.
-                </p>
-              </marquee>
-            </section>
-          </div>
-          <!--COMMENTS COLUMN ENDS-->
-          <!--SOCIAL MEDIA ICONS BEGINING-->
-          <div class="columns social_icons">
-            <a href="#" title="Facebook"><i class="fa fa-facebook"></i></a>
-            <a href="#" title="Instagram"><i class="fa fa-instagram"></i></a>
-            <a href="#" title="Youtube"><i class="fa fa-youtube"></i></a>
-            <a href="#" title="Whatsapp"><i class="fa fa-whatsapp"></i></a>
-            <a href="#" title="Telegram"><i class="fa fa-telegram"></i></a>
-          </div>
-          <!--SOCIAL MEDIA ICONS ENDS-->
+        <div class="navbar-collapse justify-content-end collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto first-nav">
+            <li class="nav-item  active">
+              <a class="nav-link  active" href="#">
+                Entreprise de nettoyage
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle " aria-current="page" data-bs-toggle="dropdown" href="#">Extrême</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">- Long asting Chews</a></li>
+                <li><a class="dropdown-item" href="#">- Bully Stick Companion</a></li>
+                <li><a class="dropdown-item" href="#">- Web Specials</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"> Pros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"> Bâtiments</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Déménagement</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Déménagement</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Entreprise</a>
+            </li>
+          </ul>
         </div>
       </div>
-      <!-- section 1 end -->
-      <!-- testimonial start -->
-      <section class="about-us-section">
-        <div class="container">
-          <div class="about-us-wrapper">
-            <p>Our ratings on the most popular review</p>
-            <h2>What our customer says</h2>
-            <div class="about-us-slider">
-              <div class="slider slider-nav">
-                <div class="slider-box">
-                  <div class="slider-card">
-                    <div class="slider-heading">
-                      <h3>So super friendly app</h3>
-                      <img src="images/quote.png" alt="" />
-                    </div>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Dolor aut dicta, alias minus earum velit, laborum libero,
-                      fuga dignissimos neque deleniti provident exercitationem
-                    </p>
-                    <div class="slider-profile">
-                      <div class="slider-profile-box">
-                        <img src="images/profile1.jpg" alt="" />
-                      </div>
-                      <div class="slider-profile-content">
-                        <h4>User name</h4>
-                        <p>Ceo</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="slider-box">
-                  <div class="slider-card">
-                    <div class="slider-heading">
-                      <h3>So super friendly app</h3>
-                      <img src="images/quote.png" alt="" />
-                    </div>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Dolor aut dicta, alias minus earum velit, laborum libero,
-                      fuga dignissimos neque deleniti provident exercitationem
-                    </p>
-                    <div class="slider-profile">
-                      <div class="slider-profile-box">
-                        <img src="images/profile1.jpg" alt="" />
-                      </div>
-                      <div class="slider-profile-content">
-                        <h4>User name</h4>
-                        <p>Ceo</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="slider-box">
-                  <div class="slider-card">
-                    <div class="slider-heading">
-                      <h3>So super friendly app</h3>
-                      <img src="images/quote.png" alt="" />
-                    </div>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Dolor aut dicta, alias minus earum velit, laborum libero,
-                      fuga dignissimos neque deleniti provident exercitationem
-                    </p>
-                    <div class="slider-profile">
-                      <div class="slider-profile-box">
-                        <img src="images/profile1.jpg" alt="" />
-                      </div>
-                      <div class="slider-profile-content">
-                        <h4>User name</h4>
-                        <p>Ceo</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="slider-box">
-                  <div class="slider-card">
-                    <div class="slider-heading">
-                      <h3>So super friendly app</h3>
-                      <img src="images/quote.png" alt="" />
-                    </div>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Dolor aut dicta, alias minus earum velit, laborum libero,
-                      fuga dignissimos neque deleniti provident exercitationem
-                    </p>
-                    <div class="slider-profile">
-                      <div class="slider-profile-box">
-                        <img src="images/profile1.jpg" alt="" />
-                      </div>
-                      <div class="slider-profile-content">
-                        <h4>User name</h4>
-                        <p>Ceo</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="slider-box">
-                  <div class="slider-card">
-                    <div class="slider-heading">
-                      <h3>So super friendly app</h3>
-                      <img src="images/quote.png" alt="" />
-                    </div>
-                    <p>
-                      The distinctly designed infrastructure enables us to
-                      ensure the availability of a very high level of resources
-                      and services at astonishingly low prices in comparison to
-                      others in the industry.
-                    </p>
-                    <div class="slider-profile">
-                      <div class="slider-profile-box">
-                        <img src="images/profile1.jpg" alt="" />
-                      </div>
-                      <div class="slider-profile-content">
-                        <h4>User name</h4>
-                        <p>Ceo</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="prev">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="72"
-                  height="13"
-                  viewBox="0 0 72 13"
-                  fill="none"
-                >
-                  <path
-                    d="M0.928759 5.9295C0.61368 6.24458 0.61368 6.75542 0.928759 7.0705L6.06327 12.205C6.37835 12.5201 6.88919 12.5201 7.20427 12.205C7.51935 11.8899 7.51935 11.3791 7.20427 11.064L2.64026 6.5L7.20427 1.93599C7.51935 1.62091 7.51935 1.11007 7.20427 0.794987C6.88919 0.479908 6.37835 0.479908 6.06327 0.794987L0.928759 5.9295ZM71.8008 5.69319L1.49926 5.69319V7.30681L71.8008 7.30681V5.69319Z"
-                    fill="#241C3A"
-                  />
-                </svg>
-              </div>
-              <div class="next">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="72"
-                  height="13"
-                  viewBox="0 0 72 13"
-                  fill="none"
-                >
-                  <path
-                    d="M71.372 7.0705C71.6871 6.75542 71.6871 6.24458 71.372 5.9295L66.2375 0.794987C65.9224 0.479908 65.4116 0.479908 65.0965 0.794987C64.7814 1.11007 64.7814 1.62091 65.0965 1.93599L69.6605 6.5L65.0965 11.064C64.7814 11.3791 64.7814 11.8899 65.0965 12.205C65.4116 12.5201 65.9224 12.5201 66.2375 12.205L71.372 7.0705ZM0.5 7.30681H70.8015V5.69319H0.5V7.30681Z"
-                    fill="#241C3A"
-                  />
-                </svg>
-              </div>
+    </nav>
+  </header>
+  <main>
+    <section class="for-vanue-banner for-marketers-banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 col-md-10">
+            <div class="banner-content">
+              <h1 class="title aos-init aos-animate" data-aos="zoom-in" data-aos-delay="300">
+                Bringing events back from digital to live
+              </h1>
             </div>
-          </div>
-        </div>
-      </section>
-      <!-- testimonial end -->
-    </main>
-    <footer>
-      <div class="section-muted">
-        <div class="container">
-          <div class="row g-4">
-            <!-- g-4 for gutter spacing between columns -->
-
-            <!-- Extreme Cleaning Section -->
-            <div class="col-12 col-sm-6 col-md-3">
-              <div class="service-category">
-                <div class="divider-small"></div>
-                <h3 class="h6">
-                  <a href="/index.php/nettoyage-extreme">Extreme cleaning</a>
-                </h3>
-                <ul>
-                  <li>
-                    <a
-                      href="/index.php/services-de-nettoyage/nettoyage-apres-deces-diogene"
-                      >Cleaning after death</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/services-de-nettoyage/nettoyage-syndrome-diogene"
-                      >Diogenes syndrome cleaning</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/services-de-nettoyage/nettoyage-logement-sale-insalubre"
-                      >Unsanitary housing cleaning - Extreme cleaning</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/services-de-nettoyage/nettoyage-apres-sinistre-incendie-inondation"
-                      >Disaster cleanup</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/services-de-nettoyage/nettoyage-apres-incendie"
-                      >Post-fire cleaning</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/services-de-nettoyage/nettoyage-apres-degat-des-eaux"
-                      >Water damage cleaning</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/services-de-nettoyage/nettoyage-fientes-de-pigeons"
-                      >Cleaning pigeon droppings</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/nettoyage-extreme/nettoyage-apres-deratisation-desinsectisation"
-                      >Cleaning after disinfestation</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/services-de-nettoyage/debarras-de-maisons"
-                      >House or apartment clearance</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/services-de-nettoyage/societe-debarras-cave-garage"
-                      >Clearing out cellars and garages</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/services-de-nettoyage/debarras-de-maisons/debarras-apres-deces"
-                      >Clearance after death</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/services-de-nettoyage/debarras-de-maisons/debarras-apres-succession"
-                      >Clearance after inheritance</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/services-de-nettoyage/debarras-insalubre-diogene"
-                      >Unsanitary clearance, clearance after Diogenes</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/nettoyage-extreme/intervention-apres-sinistre"
-                      >Post-disaster intervention</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <!-- Cleaning Services Section -->
-            <div class="col-12 col-sm-6 col-md-3">
-              <div class="service-category">
-                <div class="divider-small"></div>
-                <h3 class="h6">
-                  <a href="/index.php/services-de-nettoyage"
-                    >Cleaning Services</a
-                  >
-                </h3>
-                <ul>
-                  <li>
-                    <a href="/index.php/menage-a-domicile">Home cleaning</a>
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/services-de-nettoyage/nettoyage-fin-de-chantier-apres-travaux"
-                      >End of construction site cleaning</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/services-de-nettoyage/nettoyage-apres-demenagement"
-                      >Moving cleaning</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/services-de-nettoyage/nettoyage-maisons-appartements"
-                      >Major cleaning of houses and apartments</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/services-de-nettoyage/nettoyage-de-printemps"
-                      >Spring cleaning</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/services-de-nettoyage/nettoyage-de-vitres"
-                      >Window cleaning</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/services-de-nettoyage/nettoyage-terrasses-balcons"
-                      >Cleaning of terraces and balconies</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/services-de-nettoyage/polissage-poncage-marbre"
-                      >Marble sanding and renovation</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/services-de-nettoyage/renovation-parquet-poncage-vitrification"
-                      >Parquet floor renovation</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/services-de-nettoyage/nettoyage-apres-soiree-privee"
-                      >Cleaning up after private party</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/services-de-nettoyage/societe-nettoyage-climatisation-entretien"
-                      >Air conditioning cleaning</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/services-de-nettoyage/nettoyage-carrelage-joints-entreprise"
-                      >Cleaning tiles and joints</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/services-de-nettoyage/societe-nettoyage-bateau-yacht"
-                      >Boat cleaning</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/services-de-nettoyage/nettoyage-auto-a-domicile-bureau"
-                      >Car cleaning at home or at the office</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/services-de-nettoyage/nettoyage-professionnel-des-sols"
-                      >Professional floor cleaning</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/services-de-nettoyage/femme-de-menage-a-domicile"
-                      >Housemaid</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/services-de-nettoyage/lessivage-murs-plafonds-professionnel"
-                      >Washing walls and ceilings</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/services-de-nettoyage/societe-de-nettoyage-particuliers"
-                      >Cleaning for individuals</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/services-de-nettoyage/nettoyage-salle-de-bain-professionnel"
-                      >Bathroom cleaning</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/services-de-nettoyage/nettoyage-vitres-a-domicile-particulier"
-                      >Window cleaning at home</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/services-de-nettoyage/nettoyage-apres-fumigene"
-                      >Cleaning after fumigation</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/services-de-nettoyage/nettoyage-poudre-extincteur"
-                      >Cleaning fire extinguisher powder</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <!-- Professionals Section -->
-            <div class="col-12 col-sm-6 col-md-3">
-              <div class="service-category">
-                <div class="divider-small"></div>
-                <h3 class="h6">
-                  <a href="/index.php/professionnels">Professionals</a>
-                </h3>
-                <ul>
-                  <li>
-                    <a
-                      href="/index.php/professionnels/entretien-toiture-industrielle"
-                      >Industrial roof cleaning</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/professionnels/entretien-facade-industrielle"
-                      >Maintenance of industrial facades</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/services-de-nettoyage/nettoyage-de-bureaux"
-                      >Office cleaning</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/services-de-nettoyage/services-de-nettoyage-immeubles"
-                      >Building cleaning services</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/services-de-nettoyage/nettoyage-magasin-commerce"
-                      >Cleaning of stores and shopping centers</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/services-de-nettoyage/entreprise-de-nettoyage-industriel"
-                      >Industrial cleaning</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/services-de-nettoyage/nettoyage-de-parking"
-                      >Parking and garage cleaning</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/services-de-nettoyage/nettoyage-apres-evenement-mariage-reception"
-                      >Event cleaning</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/services-de-nettoyage/nettoyage-de-cuisines-professionnelles-et-restaurants"
-                      >Cleaning of professional kitchens and restaurants</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/services-de-nettoyage/nettoyage-hotte-cuisine-professionnelle-restaurant"
-                      >Kitchen hood cleaning</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/professionnels/debarras-bureau-local-professionnel-commercial"
-                      >Clearance of offices, professional and commercial
-                      premises</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/professionnels/destruction-archives-debarras-documents"
-                      >Clearance and destruction of archives</a
-                    >
-                  </li>
-                  <li>
-                    <a href="/index.php/professionnels/demantelement-industriel"
-                      >Industrial dismantling</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/professionnels/nettoyage-vitres-bureaux-entreprises"
-                      >Office window cleaning</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/professionnels/nettoyage-vitres-immeuble"
-                      >Cleaning building windows</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <!-- Furniture Section -->
-            <div class="col-12 col-sm-6 col-md-3">
-              <div class="service-category">
-                <div class="divider-small"></div>
-                <h3 class="h6">
-                  <a href="/index.php/mobilier">Furniture</a>
-                </h3>
-                <ul>
-                  <li>
-                    <a
-                      href="/index.php/services-de-nettoyage/nettoyage-de-moquette"
-                      >Carpet cleaning</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/services-de-nettoyage/nettoyage-de-canape"
-                      >Sofa cleaning</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/services-de-nettoyage/nettoyage-de-tapis"
-                      >Carpet cleaning</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/services-de-nettoyage/nettoyage-matelas-a-domicile"
-                      >Mattress cleaning</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/services-de-nettoyage/nettoyage-de-store"
-                      >Blind cleaning</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/services-de-nettoyage/nettoyage-de-lustre-cristal"
-                      >Chandelier cleaning</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <!-- Exterior & Gardens Section -->
-            <div class="col-12 col-sm-6 col-md-3">
-              <div class="service-category">
-                <div class="divider-small"></div>
-                <h3 class="h6">
-                  <a href="/index.php/jardin-et-exterieur"
-                    >Exterior &amp; Gardens</a
-                  >
-                </h3>
-                <ul>
-                  <li>
-                    <a
-                      href="/index.php/services-de-nettoyage/nettoyage-toiture-gouttieres-demoussage"
-                      >Roof and gutter cleaning</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/services-de-nettoyage/nettoyage-facade-bardage"
-                      >Cleaning of facades and cladding</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/jardin-et-exterieur/nettoyage-facade-maison"
-                      >House facade cleaning</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/jardin-et-exterieur/nettoyage-facade-immeuble-copropriete"
-                      >Cleaning of building and co-ownership facades</a
-                    >
-                  </li>
-                  <li>
-                    <a href="/index.php/jardin-et-exterieur/elagage-arbres"
-                      >Tree pruning</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/jardin-et-exterieur/societe-nettoyage-de-graffitis-tags"
-                      >Graffiti cleaning</a
-                    >
-                  </li>
-                  <li>
-                    <a href="/index.php/jardin-et-exterieur/abattage-arbre"
-                      >Tree felling</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/jardin-et-exterieur/debroussaillage-terrain"
-                      >Clearing</a
-                    >
-                  </li>
-                  <li>
-                    <a href="/index.php/jardin-et-exterieur/dessouchage-arbre"
-                      >Tree stump removal</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/services-de-nettoyage/nettoyage-panneaux-solaires-photovoltaiques"
-                      >Cleaning solar panels</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/services-de-nettoyage/societe-nettoyage-piscine-entretien"
-                      >Pool cleaning</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/jardin-et-exterieur/nettoyage-abris-de-piscine"
-                      >Pool enclosure cleaning</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/jardin-et-exterieur/nettoyage-terrain-debarras-defrichage"
-                      >Cleaning and clearing of land</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/jardin-et-exterieur/societe-enlevement-de-gravats"
-                      >Removal of rubble</a
-                    >
-                  </li>
-                  <li>
-                    <a href="/index.php/jardin-et-exterieur/nettoyage-serre"
-                      >Greenhouse cleaning</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/jardin-et-exterieur/societe-nettoyage-de-puits-puisatier"
-                      >Well cleaning</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/jardin-et-exterieur/nettoyage-bassin-de-jardin"
-                      >Garden pond cleaning</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/jardin-et-exterieur/entreprise-taille-de-haies"
-                      >Hedge trimming</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/jardin-et-exterieur/nettoyage-mobilier-urbain"
-                      >Cleaning of street furniture</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/jardin-et-exterieur/nettoyage-berges-rivieres"
-                      >Maintenance of banks and waterways</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/jardin-et-exterieur/entretien-ouvrages-d-art"
-                      >Cleaning of civil engineering structures</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/jardin-et-exterieur/nettoyage-aire-de-jeux"
-                      >Playground maintenance</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <!-- 3D Pests Section -->
-            <div class="col-12 col-sm-6 col-md-3">
-              <div class="service-category">
-                <div class="divider-small"></div>
-                <h3 class="h6">
-                  <a href="/index.php/traitement-des-nuisibles">3D Pests</a>
-                </h3>
-                <ul>
-                  <li>
-                    <a
-                      href="/index.php/traitement-des-nuisibles/societe-de-desinsectisation"
-                      >Professional pest control</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/traitement-des-nuisibles/entreprise-de-deratisation"
-                      >Pest Control Services</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/traitement-des-nuisibles/societe-traitement-anti-cafards"
-                      >Cockroach treatment</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/traitement-des-nuisibles/societe-traitement-punaises-de-lit"
-                      >Bedbug Treatment</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/traitement-des-nuisibles/destruction-nid-guepes-frelons-asiatiques"
-                      >Destruction of wasp nest</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="/index.php/traitement-des-nuisibles/societe-pour-lutter-contre-les-taupes"
-                      >Mole control company</a
-                    >
-                  </li>
-                </ul>
-              </div>
+            <div class="banner-search-bar">
+              <p class="search-txt aos-init aos-animate" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="400">
+                while helping your local venues and communities to thrive
+              </p>
             </div>
           </div>
         </div>
       </div>
-    </footer>
-    <!-- js -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </section>
+    <div class="blog_container">
+      <div class="blog_content">
+        <div class="left_content">
+          <!--CARD BEGINING-->
+          <div class="blog_card">
+            <a href="article.html" class="figure">
+              <img src="images/happy-female-blogger.jpg" alt="" loading="lazy" />
+              <span class="tag">15 JAN</span>
+            </a>
+            <section>
+              <a href="#" class="title">Blog title goes here...</a>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat...
+              </p>
+            </section>
+          </div>
+          <!--CARD ENDS-->
+          <!--CARD BEGINING-->
+          <div class="blog_card">
+            <a href="#" class="figure">
+              <img src="images/blog1.jpg" alt="" loading="lazy" />
+              <span class="tag">15 JAN</span>
+            </a>
+            <section>
+              <a href="article.html" class="title">Blog title goes here...</a>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat...
+              </p>
+            </section>
+          </div>
+          <!--CARD ENDS-->
+          <!--CARD BEGINING-->
+          <div class="blog_card">
+            <a href="article.html" class="figure">
+              <img src="images/blog1.jpg" alt="" loading="lazy" />
+              <span class="tag">15 JAN</span>
+            </a>
+            <section>
+              <a href="#" class="title">Blog title goes here...</a>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat...
+              </p>
+            </section>
+          </div>
+          <!--CARD ENDS-->
+          <!--CARD BEGINING-->
+          <div class="blog_card">
+            <a href="article.html" class="figure">
+              <img src="images/blog1.jpg" alt="" loading="lazy" />
+              <span class="tag">15 JAN</span>
+            </a>
+            <section>
+              <a href="#" class="title">Blog title goes here...</a>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat...
+              </p>
+            </section>
+          </div>
+          <!--CARD ENDS-->
+          <!--CARD BEGINING-->
+          <div class="blog_card">
+            <a href="article.html" class="figure">
+              <img src="images/blog1.jpg" alt="" loading="lazy" />
+              <span class="tag">15 JAN</span>
+            </a>
+            <section>
+              <a href="#" class="title">Blog title goes here...</a>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat...
+              </p>
+            </section>
+          </div>
+          <!--CARD ENDS-->
+          <!--CARD BEGINING-->
+          <div class="blog_card">
+            <a href="#" class="figure">
+              <img src="images/blog1.jpg" alt="" loading="lazy" />
+              <span class="tag">15 JAN</span>
+            </a>
+            <section>
+              <a href="#" class="title">Blog title goes here...</a>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat...
+              </p>
+            </section>
+          </div>
+          <!--CARD ENDS-->
+          <!--CARD BEGINING-->
+          <div class="blog_card">
+            <a href="#" class="figure">
+              <img src="images/blog1.jpg" alt="" loading="lazy" />
+              <span class="tag">15 JAN</span>
+            </a>
+            <section>
+              <a href="article.html" class="title">Blog title goes here...</a>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat...
+              </p>
+            </section>
+          </div>
+          <!--CARD ENDS-->
+        </div>
+        <button class="btn1 load-btn">Load more</button>
+      </div>
 
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/slick.js"></script>
-    <script src="js/slick.min.js"></script>
+      <div class="blog_content right_content">
+        <!--SEARCH COLUMN BEGINING-->
+        <div class="columns search_column">
+          <section class="search">
+            <form>
+              <fieldset>
+                <input type="text" name="search" placeholder="Search..." maxlength="100" required="" />
+              </fieldset>
+              <fieldset>
+                <button type="submit" class="btn1">
+                  <i class="fa fa-search"></i>
+                </button>
+              </fieldset>
+            </form>
+          </section>
+        </div>
+        <!--SEARCH COLUMN ENDS-->
+        <!--BOOKS COLUMN BEGINING-->
+        <div class="columns books">
+          <span class="title">New Books
+            <a href="#" title="Explore More"><i class="fa fa-share"></i></a></span>
+          <section>
+            <div class="cards">
+              <div class="card_part card_part-one" style="
+                    background-image: url(https://i.postimg.cc/2SD5y5RS/book-1.png);
+                  "></div>
+              <div class="card_part card_part-two" style="
+                    background-image: url(https://i.postimg.cc/2SD5y5RS/book-1.png);
+                  "></div>
+              <div class="card_part card_part-three" style="
+                    background-image: url(https://i.postimg.cc/2SD5y5RS/book-1.png);
+                  "></div>
+              <div class="card_part card_part-four" style="
+                    background-image: url(https://i.postimg.cc/2SD5y5RS/book-1.png);
+                  "></div>
+            </div>
+          </section>
+        </div>
+        <!--BOOKS COLUMN ENDS-->
+        <!--CATEGORIES COLUMN BEGINING-->
+        <div class="columns categories">
+          <span class="title">Categories</span>
+          <section>
+            <a href="#">Bhagavad Gita</a>
+            <a href="#">Education</a>
+            <a href="#">Importance of reading</a>
+            <a href="#">Origin of vedas</a>
+            <a href="#">Srimad bhagavatam</a>
+            <a href="#">Krishna</a>
+            <a href="#">Process of aquiring knowledge</a>
+          </section>
+        </div>
+        <!--CATEGORIES COLUMN ENDS-->
+        <!--POSTS COLUMN BEGINING-->
+        <div class="columns posts">
+          <span class="title">Recent Posts
+            <a href="#" title="Explore More"><i class="fa fa-share"></i></a></span>
+          <section>
+            <a href="#"><img src="images/blog1.jpg" alt="" loading="lazy" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit
+              </p>
+            </a>
+            <a href="#"><img src="images/blog1.jpg" alt="" loading="lazy" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit
+              </p>
+            </a>
+            <a href="#"><img src="images/blog1.jpg" alt="" loading="lazy" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit
+              </p>
+            </a>
+          </section>
+        </div>
+        <!--POSTS COLUMN ENDS-->
+        <!--COMMENTS COLUMN BEGINING-->
+        <div class="columns comments">
+          <span class="title">
+            Recent Comments
+            <a href="#" title="Explore More"><i class="fa fa-share"></i></a></span>
+          <section>
+            <marquee direction="up" scrollamount="4" onMouseOver="this.stop()" onMouseOut="this.start()" class="marquee2">
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Deserunt ea aliquid consequuntur, non nesciunt officiis
+                cupiditate aspernatur et quaerat illo quas minus, eum error
+                obcaecati vel pariatur dolor ratione? Ullam.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Deserunt ea aliquid consequuntur, non nesciunt officiis
+                cupiditate aspernatur et quaerat illo quas minus, eum error
+                obcaecati vel pariatur dolor ratione? Ullam.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Deserunt ea aliquid consequuntur, non nesciunt officiis
+                cupiditate aspernatur et quaerat illo quas minus, eum error
+                obcaecati vel pariatur dolor ratione? Ullam.
+              </p>
+            </marquee>
+          </section>
+        </div>
+        <!--COMMENTS COLUMN ENDS-->
+        <!--SOCIAL MEDIA ICONS BEGINING-->
+        <div class="columns social_icons">
+          <a href="#" title="Facebook"><i class="fa fa-facebook"></i></a>
+          <a href="#" title="Instagram"><i class="fa fa-instagram"></i></a>
+          <a href="#" title="Youtube"><i class="fa fa-youtube"></i></a>
+          <a href="#" title="Whatsapp"><i class="fa fa-whatsapp"></i></a>
+          <a href="#" title="Telegram"><i class="fa fa-telegram"></i></a>
+        </div>
+        <!--SOCIAL MEDIA ICONS ENDS-->
+      </div>
+    </div>
+    <!-- section 1 end -->
+    <!-- testimonial start -->
+    <section class="about-us-section">
+      <div class="container">
+        <div class="about-us-wrapper">
+          <p>Our ratings on the most popular review</p>
+          <h2>What our customer says</h2>
+          <div class="about-us-slider">
+            <div class="slider slider-nav">
+              <div class="slider-box">
+                <div class="slider-card">
+                  <div class="slider-heading">
+                    <h3>So super friendly app</h3>
+                    <img src="images/quote.png" alt="" />
+                  </div>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Dolor aut dicta, alias minus earum velit, laborum libero,
+                    fuga dignissimos neque deleniti provident exercitationem
+                  </p>
+                  <div class="slider-profile">
+                    <div class="slider-profile-box">
+                      <img src="images/profile1.jpg" alt="" />
+                    </div>
+                    <div class="slider-profile-content">
+                      <h4>User name</h4>
+                      <p>Ceo</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="slider-box">
+                <div class="slider-card">
+                  <div class="slider-heading">
+                    <h3>So super friendly app</h3>
+                    <img src="images/quote.png" alt="" />
+                  </div>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Dolor aut dicta, alias minus earum velit, laborum libero,
+                    fuga dignissimos neque deleniti provident exercitationem
+                  </p>
+                  <div class="slider-profile">
+                    <div class="slider-profile-box">
+                      <img src="images/profile1.jpg" alt="" />
+                    </div>
+                    <div class="slider-profile-content">
+                      <h4>User name</h4>
+                      <p>Ceo</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="slider-box">
+                <div class="slider-card">
+                  <div class="slider-heading">
+                    <h3>So super friendly app</h3>
+                    <img src="images/quote.png" alt="" />
+                  </div>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Dolor aut dicta, alias minus earum velit, laborum libero,
+                    fuga dignissimos neque deleniti provident exercitationem
+                  </p>
+                  <div class="slider-profile">
+                    <div class="slider-profile-box">
+                      <img src="images/profile1.jpg" alt="" />
+                    </div>
+                    <div class="slider-profile-content">
+                      <h4>User name</h4>
+                      <p>Ceo</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="slider-box">
+                <div class="slider-card">
+                  <div class="slider-heading">
+                    <h3>So super friendly app</h3>
+                    <img src="images/quote.png" alt="" />
+                  </div>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Dolor aut dicta, alias minus earum velit, laborum libero,
+                    fuga dignissimos neque deleniti provident exercitationem
+                  </p>
+                  <div class="slider-profile">
+                    <div class="slider-profile-box">
+                      <img src="images/profile1.jpg" alt="" />
+                    </div>
+                    <div class="slider-profile-content">
+                      <h4>User name</h4>
+                      <p>Ceo</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="slider-box">
+                <div class="slider-card">
+                  <div class="slider-heading">
+                    <h3>So super friendly app</h3>
+                    <img src="images/quote.png" alt="" />
+                  </div>
+                  <p>
+                    The distinctly designed infrastructure enables us to
+                    ensure the availability of a very high level of resources
+                    and services at astonishingly low prices in comparison to
+                    others in the industry.
+                  </p>
+                  <div class="slider-profile">
+                    <div class="slider-profile-box">
+                      <img src="images/profile1.jpg" alt="" />
+                    </div>
+                    <div class="slider-profile-content">
+                      <h4>User name</h4>
+                      <p>Ceo</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="prev">
+              <svg xmlns="http://www.w3.org/2000/svg" width="72" height="13" viewBox="0 0 72 13" fill="none">
+                <path d="M0.928759 5.9295C0.61368 6.24458 0.61368 6.75542 0.928759 7.0705L6.06327 12.205C6.37835 12.5201 6.88919 12.5201 7.20427 12.205C7.51935 11.8899 7.51935 11.3791 7.20427 11.064L2.64026 6.5L7.20427 1.93599C7.51935 1.62091 7.51935 1.11007 7.20427 0.794987C6.88919 0.479908 6.37835 0.479908 6.06327 0.794987L0.928759 5.9295ZM71.8008 5.69319L1.49926 5.69319V7.30681L71.8008 7.30681V5.69319Z" fill="#241C3A" />
+              </svg>
+            </div>
+            <div class="next">
+              <svg xmlns="http://www.w3.org/2000/svg" width="72" height="13" viewBox="0 0 72 13" fill="none">
+                <path d="M71.372 7.0705C71.6871 6.75542 71.6871 6.24458 71.372 5.9295L66.2375 0.794987C65.9224 0.479908 65.4116 0.479908 65.0965 0.794987C64.7814 1.11007 64.7814 1.62091 65.0965 1.93599L69.6605 6.5L65.0965 11.064C64.7814 11.3791 64.7814 11.8899 65.0965 12.205C65.4116 12.5201 65.9224 12.5201 66.2375 12.205L71.372 7.0705ZM0.5 7.30681H70.8015V5.69319H0.5V7.30681Z" fill="#241C3A" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- testimonial end -->
+  </main>
+  <footer>
+    <div class="section-muted">
+      <div class="container">
+        <div class="row g-4">
+          <!-- g-4 for gutter spacing between columns -->
 
-    <script>
-      $(document).ready(function () {
-        $(".slider-nav").slick({
-          dots: false,
-          infinite: false,
-          draggable: true,
-          slidesToShow: 2.5,
-          prevArrow: $(".prev"),
-          nextArrow: $(".next"),
-          responsive: [
-            {
-              breakpoint: 1200,
-              settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2,
-              },
+          <!-- Extreme Cleaning Section -->
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="service-category">
+              <div class="divider-small"></div>
+              <h3 class="h6">
+                <a href="/index.php/nettoyage-extreme">Extreme cleaning</a>
+              </h3>
+              <ul>
+                <li>
+                  <a href="/index.php/services-de-nettoyage/nettoyage-apres-deces-diogene">Cleaning after death</a>
+                </li>
+                <li>
+                  <a href="/index.php/services-de-nettoyage/nettoyage-syndrome-diogene">Diogenes syndrome cleaning</a>
+                </li>
+                <li>
+                  <a href="/index.php/services-de-nettoyage/nettoyage-logement-sale-insalubre">Unsanitary housing
+                    cleaning - Extreme cleaning</a>
+                </li>
+                <li>
+                  <a href="/index.php/services-de-nettoyage/nettoyage-apres-sinistre-incendie-inondation">Disaster
+                    cleanup</a>
+                </li>
+                <li>
+                  <a href="/index.php/services-de-nettoyage/nettoyage-apres-incendie">Post-fire cleaning</a>
+                </li>
+                <li>
+                  <a href="/index.php/services-de-nettoyage/nettoyage-apres-degat-des-eaux">Water damage cleaning</a>
+                </li>
+                <li>
+                  <a href="/index.php/services-de-nettoyage/nettoyage-fientes-de-pigeons">Cleaning pigeon droppings</a>
+                </li>
+                <li>
+                  <a href="/index.php/nettoyage-extreme/nettoyage-apres-deratisation-desinsectisation">Cleaning after
+                    disinfestation</a>
+                </li>
+                <li>
+                  <a href="/index.php/services-de-nettoyage/debarras-de-maisons">House or apartment clearance</a>
+                </li>
+                <li>
+                  <a href="/index.php/services-de-nettoyage/societe-debarras-cave-garage">Clearing out cellars and
+                    garages</a>
+                </li>
+                <li>
+                  <a href="/index.php/services-de-nettoyage/debarras-de-maisons/debarras-apres-deces">Clearance after
+                    death</a>
+                </li>
+                <li>
+                  <a href="/index.php/services-de-nettoyage/debarras-de-maisons/debarras-apres-succession">Clearance
+                    after inheritance</a>
+                </li>
+                <li>
+                  <a href="/index.php/services-de-nettoyage/debarras-insalubre-diogene">Unsanitary clearance, clearance
+                    after Diogenes</a>
+                </li>
+                <li>
+                  <a href="/index.php/nettoyage-extreme/intervention-apres-sinistre">Post-disaster intervention</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Cleaning Services Section -->
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="service-category">
+              <div class="divider-small"></div>
+              <h3 class="h6">
+                <a href="/index.php/services-de-nettoyage">Cleaning Services</a>
+              </h3>
+              <ul>
+                <li>
+                  <a href="/index.php/menage-a-domicile">Home cleaning</a>
+                </li>
+                <li>
+                  <a href="/index.php/services-de-nettoyage/nettoyage-fin-de-chantier-apres-travaux">End of construction
+                    site cleaning</a>
+                </li>
+                <li>
+                  <a href="/index.php/services-de-nettoyage/nettoyage-apres-demenagement">Moving cleaning</a>
+                </li>
+                <li>
+                  <a href="/index.php/services-de-nettoyage/nettoyage-maisons-appartements">Major cleaning of houses and
+                    apartments</a>
+                </li>
+                <li>
+                  <a href="/index.php/services-de-nettoyage/nettoyage-de-printemps">Spring cleaning</a>
+                </li>
+                <li>
+                  <a href="/index.php/services-de-nettoyage/nettoyage-de-vitres">Window cleaning</a>
+                </li>
+                <li>
+                  <a href="/index.php/services-de-nettoyage/nettoyage-terrasses-balcons">Cleaning of terraces and
+                    balconies</a>
+                </li>
+                <li>
+                  <a href="/index.php/services-de-nettoyage/polissage-poncage-marbre">Marble sanding and renovation</a>
+                </li>
+                <li>
+                  <a href="/index.php/services-de-nettoyage/renovation-parquet-poncage-vitrification">Parquet floor
+                    renovation</a>
+                </li>
+                <li>
+                  <a href="/index.php/services-de-nettoyage/nettoyage-apres-soiree-privee">Cleaning up after private
+                    party</a>
+                </li>
+                <li>
+                  <a href="/index.php/services-de-nettoyage/societe-nettoyage-climatisation-entretien">Air conditioning
+                    cleaning</a>
+                </li>
+                <li>
+                  <a href="/index.php/services-de-nettoyage/nettoyage-carrelage-joints-entreprise">Cleaning tiles and
+                    joints</a>
+                </li>
+                <li>
+                  <a href="/index.php/services-de-nettoyage/societe-nettoyage-bateau-yacht">Boat cleaning</a>
+                </li>
+                <li>
+                  <a href="/index.php/services-de-nettoyage/nettoyage-auto-a-domicile-bureau">Car cleaning at home or at
+                    the office</a>
+                </li>
+                <li>
+                  <a href="/index.php/services-de-nettoyage/nettoyage-professionnel-des-sols">Professional floor
+                    cleaning</a>
+                </li>
+                <li>
+                  <a href="/index.php/services-de-nettoyage/femme-de-menage-a-domicile">Housemaid</a>
+                </li>
+                <li>
+                  <a href="/index.php/services-de-nettoyage/lessivage-murs-plafonds-professionnel">Washing walls and
+                    ceilings</a>
+                </li>
+                <li>
+                  <a href="/index.php/services-de-nettoyage/societe-de-nettoyage-particuliers">Cleaning for
+                    individuals</a>
+                </li>
+                <li>
+                  <a href="/index.php/services-de-nettoyage/nettoyage-salle-de-bain-professionnel">Bathroom cleaning</a>
+                </li>
+                <li>
+                  <a href="/index.php/services-de-nettoyage/nettoyage-vitres-a-domicile-particulier">Window cleaning at
+                    home</a>
+                </li>
+                <li>
+                  <a href="/index.php/services-de-nettoyage/nettoyage-apres-fumigene">Cleaning after fumigation</a>
+                </li>
+                <li>
+                  <a href="/index.php/services-de-nettoyage/nettoyage-poudre-extincteur">Cleaning fire extinguisher
+                    powder</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Professionals Section -->
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="service-category">
+              <div class="divider-small"></div>
+              <h3 class="h6">
+                <a href="/index.php/professionnels">Professionals</a>
+              </h3>
+              <ul>
+                <li>
+                  <a href="/index.php/professionnels/entretien-toiture-industrielle">Industrial roof cleaning</a>
+                </li>
+                <li>
+                  <a href="/index.php/professionnels/entretien-facade-industrielle">Maintenance of industrial
+                    facades</a>
+                </li>
+                <li>
+                  <a href="/index.php/services-de-nettoyage/nettoyage-de-bureaux">Office cleaning</a>
+                </li>
+                <li>
+                  <a href="/index.php/services-de-nettoyage/services-de-nettoyage-immeubles">Building cleaning
+                    services</a>
+                </li>
+                <li>
+                  <a href="/index.php/services-de-nettoyage/nettoyage-magasin-commerce">Cleaning of stores and shopping
+                    centers</a>
+                </li>
+                <li>
+                  <a href="/index.php/services-de-nettoyage/entreprise-de-nettoyage-industriel">Industrial cleaning</a>
+                </li>
+                <li>
+                  <a href="/index.php/services-de-nettoyage/nettoyage-de-parking">Parking and garage cleaning</a>
+                </li>
+                <li>
+                  <a href="/index.php/services-de-nettoyage/nettoyage-apres-evenement-mariage-reception">Event
+                    cleaning</a>
+                </li>
+                <li>
+                  <a href="/index.php/services-de-nettoyage/nettoyage-de-cuisines-professionnelles-et-restaurants">Cleaning
+                    of professional kitchens and restaurants</a>
+                </li>
+                <li>
+                  <a href="/index.php/services-de-nettoyage/nettoyage-hotte-cuisine-professionnelle-restaurant">Kitchen
+                    hood cleaning</a>
+                </li>
+                <li>
+                  <a href="/index.php/professionnels/debarras-bureau-local-professionnel-commercial">Clearance of
+                    offices, professional and commercial
+                    premises</a>
+                </li>
+                <li>
+                  <a href="/index.php/professionnels/destruction-archives-debarras-documents">Clearance and destruction
+                    of archives</a>
+                </li>
+                <li>
+                  <a href="/index.php/professionnels/demantelement-industriel">Industrial dismantling</a>
+                </li>
+                <li>
+                  <a href="/index.php/professionnels/nettoyage-vitres-bureaux-entreprises">Office window cleaning</a>
+                </li>
+                <li>
+                  <a href="/index.php/professionnels/nettoyage-vitres-immeuble">Cleaning building windows</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Furniture Section -->
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="service-category">
+              <div class="divider-small"></div>
+              <h3 class="h6">
+                <a href="/index.php/mobilier">Furniture</a>
+              </h3>
+              <ul>
+                <li>
+                  <a href="/index.php/services-de-nettoyage/nettoyage-de-moquette">Carpet cleaning</a>
+                </li>
+                <li>
+                  <a href="/index.php/services-de-nettoyage/nettoyage-de-canape">Sofa cleaning</a>
+                </li>
+                <li>
+                  <a href="/index.php/services-de-nettoyage/nettoyage-de-tapis">Carpet cleaning</a>
+                </li>
+                <li>
+                  <a href="/index.php/services-de-nettoyage/nettoyage-matelas-a-domicile">Mattress cleaning</a>
+                </li>
+                <li>
+                  <a href="/index.php/services-de-nettoyage/nettoyage-de-store">Blind cleaning</a>
+                </li>
+                <li>
+                  <a href="/index.php/services-de-nettoyage/nettoyage-de-lustre-cristal">Chandelier cleaning</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Exterior & Gardens Section -->
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="service-category">
+              <div class="divider-small"></div>
+              <h3 class="h6">
+                <a href="/index.php/jardin-et-exterieur">Exterior &amp; Gardens</a>
+              </h3>
+              <ul>
+                <li>
+                  <a href="/index.php/services-de-nettoyage/nettoyage-toiture-gouttieres-demoussage">Roof and gutter
+                    cleaning</a>
+                </li>
+                <li>
+                  <a href="/index.php/services-de-nettoyage/nettoyage-facade-bardage">Cleaning of facades and
+                    cladding</a>
+                </li>
+                <li>
+                  <a href="/index.php/jardin-et-exterieur/nettoyage-facade-maison">House facade cleaning</a>
+                </li>
+                <li>
+                  <a href="/index.php/jardin-et-exterieur/nettoyage-facade-immeuble-copropriete">Cleaning of building
+                    and co-ownership facades</a>
+                </li>
+                <li>
+                  <a href="/index.php/jardin-et-exterieur/elagage-arbres">Tree pruning</a>
+                </li>
+                <li>
+                  <a href="/index.php/jardin-et-exterieur/societe-nettoyage-de-graffitis-tags">Graffiti cleaning</a>
+                </li>
+                <li>
+                  <a href="/index.php/jardin-et-exterieur/abattage-arbre">Tree felling</a>
+                </li>
+                <li>
+                  <a href="/index.php/jardin-et-exterieur/debroussaillage-terrain">Clearing</a>
+                </li>
+                <li>
+                  <a href="/index.php/jardin-et-exterieur/dessouchage-arbre">Tree stump removal</a>
+                </li>
+                <li>
+                  <a href="/index.php/services-de-nettoyage/nettoyage-panneaux-solaires-photovoltaiques">Cleaning solar
+                    panels</a>
+                </li>
+                <li>
+                  <a href="/index.php/services-de-nettoyage/societe-nettoyage-piscine-entretien">Pool cleaning</a>
+                </li>
+                <li>
+                  <a href="/index.php/jardin-et-exterieur/nettoyage-abris-de-piscine">Pool enclosure cleaning</a>
+                </li>
+                <li>
+                  <a href="/index.php/jardin-et-exterieur/nettoyage-terrain-debarras-defrichage">Cleaning and clearing
+                    of land</a>
+                </li>
+                <li>
+                  <a href="/index.php/jardin-et-exterieur/societe-enlevement-de-gravats">Removal of rubble</a>
+                </li>
+                <li>
+                  <a href="/index.php/jardin-et-exterieur/nettoyage-serre">Greenhouse cleaning</a>
+                </li>
+                <li>
+                  <a href="/index.php/jardin-et-exterieur/societe-nettoyage-de-puits-puisatier">Well cleaning</a>
+                </li>
+                <li>
+                  <a href="/index.php/jardin-et-exterieur/nettoyage-bassin-de-jardin">Garden pond cleaning</a>
+                </li>
+                <li>
+                  <a href="/index.php/jardin-et-exterieur/entreprise-taille-de-haies">Hedge trimming</a>
+                </li>
+                <li>
+                  <a href="/index.php/jardin-et-exterieur/nettoyage-mobilier-urbain">Cleaning of street furniture</a>
+                </li>
+                <li>
+                  <a href="/index.php/jardin-et-exterieur/nettoyage-berges-rivieres">Maintenance of banks and
+                    waterways</a>
+                </li>
+                <li>
+                  <a href="/index.php/jardin-et-exterieur/entretien-ouvrages-d-art">Cleaning of civil engineering
+                    structures</a>
+                </li>
+                <li>
+                  <a href="/index.php/jardin-et-exterieur/nettoyage-aire-de-jeux">Playground maintenance</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- 3D Pests Section -->
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="service-category">
+              <div class="divider-small"></div>
+              <h3 class="h6">
+                <a href="/index.php/traitement-des-nuisibles">3D Pests</a>
+              </h3>
+              <ul>
+                <li>
+                  <a href="/index.php/traitement-des-nuisibles/societe-de-desinsectisation">Professional pest
+                    control</a>
+                </li>
+                <li>
+                  <a href="/index.php/traitement-des-nuisibles/entreprise-de-deratisation">Pest Control Services</a>
+                </li>
+                <li>
+                  <a href="/index.php/traitement-des-nuisibles/societe-traitement-anti-cafards">Cockroach treatment</a>
+                </li>
+                <li>
+                  <a href="/index.php/traitement-des-nuisibles/societe-traitement-punaises-de-lit">Bedbug Treatment</a>
+                </li>
+                <li>
+                  <a href="/index.php/traitement-des-nuisibles/destruction-nid-guepes-frelons-asiatiques">Destruction of
+                    wasp nest</a>
+                </li>
+                <li>
+                  <a href="/index.php/traitement-des-nuisibles/societe-pour-lutter-contre-les-taupes">Mole control
+                    company</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- js -->
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+  <script src="js/slick.js"></script>
+  <script src="js/slick.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $(".slider-nav").slick({
+        dots: false,
+        infinite: false,
+        draggable: true,
+        slidesToShow: 2.5,
+        prevArrow: $(".prev"),
+        nextArrow: $(".next"),
+        responsive: [
+          {
+            breakpoint: 1200,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
             },
-            {
-              breakpoint: 1024,
-              settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2,
-                dots: true,
-              },
+          },
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+              dots: false,
             },
-            {
-              breakpoint: 767,
-              settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                arrows: false,
-              },
+          },
+          {
+            breakpoint: 767,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              arrows: false,
             },
-          ],
-        });
+          },
+        ],
       });
-    </script>
-    <script>
-      const toggleMenuClicked = () => {
-        const body = document.body;
-        const openIcon = document.getElementById("open-icon");
-        const closeIcon = document.getElementById("close-icon");
+    });
+  </script>
+  <!-- js -->
+</body>
 
-        body.classList.toggle("open");
-
-        if (body.classList.contains("open")) {
-          openIcon.style.display = "none";
-          closeIcon.style.display = "flex";
-        } else {
-          openIcon.style.display = "flex";
-          closeIcon.style.display = "none";
-        }
-      };
-    </script>
-    <!-- js -->
-  </body>
 </html>
